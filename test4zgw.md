@@ -17,15 +17,15 @@ test4zgw.conf
 
 - [x] s3tests.functional.test_s3:test_object_requestid_on_error
 
-- [ ] s3tests.functional.test_s3:test_bucket_notexist
+- [x] s3tests.functional.test_s3:test_bucket_notexist
 
-- [ ] s3tests.functional.test_s3:test_bucket_delete_notexist
+- [x] s3tests.functional.test_s3:test_bucket_delete_notexist
 
-- [ ] s3tests.functional.test_s3:test_bucket_delete_nonempty
+- [x] s3tests.functional.test_s3:test_bucket_delete_nonempty
 
-- [ ] s3tests.functional.test_s3:test_bucket_create_delete
+- [x] s3tests.functional.test_s3:test_bucket_create_delete
 
-- [ ] s3tests.functional.test_s3:test_object_requestid_matchs_header_on_error \*\*
+- [x] s3tests.functional.test_s3:test_object_requestid_matchs_header_on_error \*\*
 
 - [x] s3tests.functional.test_s3:test_object_head_zero_bytes
 
@@ -103,7 +103,7 @@ test4zgw.conf
 
 - [x] s3tests.functional.test_s3:test_bucket_head
 
-- [ ] s3tests.functional.test_s3:test_bucket_head_extended
+- [x] s3tests.functional.test_s3:test_bucket_head_extended
 
 - [ ] s3tests.functional.test_s3:test_object_raw_authenticated
 
@@ -139,19 +139,19 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_bucket_create_naming_bad_long
 
-- [ ] s3tests.functional.test_s3:test_bucket_create_naming_good_long_250
+- [x] s3tests.functional.test_s3:test_bucket_create_naming_good_long_250
 
-- [ ] s3tests.functional.test_s3:test_bucket_create_naming_good_long_251
+- [x] s3tests.functional.test_s3:test_bucket_create_naming_good_long_251
 
-- [ ] s3tests.functional.test_s3:test_bucket_create_naming_good_long_252
+- [x] s3tests.functional.test_s3:test_bucket_create_naming_good_long_252
 
-- [ ] s3tests.functional.test_s3:test_bucket_create_naming_good_long_253
+- [x] s3tests.functional.test_s3:test_bucket_create_naming_good_long_253
 
-- [ ] s3tests.functional.test_s3:test_bucket_create_naming_good_long_254
+- [x] s3tests.functional.test_s3:test_bucket_create_naming_good_long_254
 
-- [ ] s3tests.functional.test_s3:test_bucket_create_naming_good_long_255
+- [x] s3tests.functional.test_s3:test_bucket_create_naming_good_long_255
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_long_name
+- [x] s3tests.functional.test_s3:test_bucket_list_long_name
 
 - [ ] s3tests.functional.test_s3:test_bucket_create_naming_bad_ip
 
@@ -175,11 +175,11 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_bucket_get_location \*
 
-- [ ] s3tests.functional.test_s3:test_bucket_create_exists_nonowner \*\*
+- [x] s3tests.functional.test_s3:test_bucket_create_exists_nonowner \*\*
 
 - [ ] s3tests.functional.test_s3:test_bucket_delete_nonowner
 
-- [ ] s3tests.functional.test_s3:test_buckets_create_then_list
+- [x] s3tests.functional.test_s3:test_buckets_create_then_list
 
 - [ ] s3tests.functional.test_s3:test_list_buckets_anonymous
 
@@ -201,9 +201,9 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_special_prefix
 
-- [ ] s3tests.functional.test_s3:test_object_copy_zero_size
+- [x] s3tests.functional.test_s3:test_object_copy_zero_size
 
-- [ ] s3tests.functional.test_s3:test_object_copy_same_bucket
+- [x] s3tests.functional.test_s3:test_object_copy_same_bucket
 
 - [ ] s3tests.functional.test_s3:test_object_copy_verify_contenttype
 
@@ -211,9 +211,9 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_object_copy_to_itself_with_metadata
 
-- [ ] s3tests.functional.test_s3:test_object_copy_diff_bucket
+- [x] s3tests.functional.test_s3:test_object_copy_diff_bucket
 
-- [ ] s3tests.functional.test_s3:test_object_copy_not_owned_bucket
+- [x] s3tests.functional.test_s3:test_object_copy_not_owned_bucket
 
 - [ ] s3tests.functional.test_s3:test_object_copy_not_owned_object_bucket
 
@@ -221,15 +221,15 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_object_copy_replacing_metadata
 
-- [ ] s3tests.functional.test_s3:test_object_copy_bucket_not_found
+- [x] s3tests.functional.test_s3:test_object_copy_bucket_not_found
 
-- [ ] s3tests.functional.test_s3:test_object_copy_key_not_found
+- [x] s3tests.functional.test_s3:test_object_copy_key_not_found
 
 - [ ] s3tests.functional.test_s3:test_object_copy_versioned_bucket
 
 - [ ] s3tests.functional.test_s3:test_object_copy_versioning_multipart_upload
 
-- [ ] s3tests.functional.test_s3:test_multipart_upload_empty
+- [x] s3tests.functional.test_s3:test_multipart_upload_empty
 
 - [ ] s3tests.functional.test_s3:test_multipart_upload_small
 
@@ -249,19 +249,19 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_multipart_upload_size_too_small
 
-- [ ] s3tests.functional.test_s3:test_multipart_upload_contents
+- [x] s3tests.functional.test_s3:test_multipart_upload_contents
 
-- [ ] s3tests.functional.test_s3:test_multipart_upload_overwrite_existing_object
+- [x] s3tests.functional.test_s3:test_multipart_upload_overwrite_existing_object
 
-- [ ] s3tests.functional.test_s3:test_abort_multipart_upload
+- [x] s3tests.functional.test_s3:test_abort_multipart_upload
 
-- [ ] s3tests.functional.test_s3:test_abort_multipart_upload_not_found
+- [x] s3tests.functional.test_s3:test_abort_multipart_upload_not_found
 
-- [ ] s3tests.functional.test_s3:test_list_multipart_upload
+- [x] s3tests.functional.test_s3:test_list_multipart_upload
 
-- [ ] s3tests.functional.test_s3:test_multipart_upload_missing_part
+- [x] s3tests.functional.test_s3:test_multipart_upload_missing_part
 
-- [ ] s3tests.functional.test_s3:test_multipart_upload_incorrect_etag
+- [x] s3tests.functional.test_s3:test_multipart_upload_incorrect_etag
 
 - [ ] s3tests.functional.test_s3:test_100_continue
 
@@ -271,33 +271,33 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_cors_origin_wildcard
 
-- [ ] s3tests.functional.test_s3:test_atomic_read_1mb
+- [x] s3tests.functional.test_s3:test_atomic_read_1mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_read_4mb
+- [x] s3tests.functional.test_s3:test_atomic_read_4mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_read_8mb
+- [x] s3tests.functional.test_s3:test_atomic_read_8mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_write_1mb
+- [x] s3tests.functional.test_s3:test_atomic_write_1mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_write_4mb
+- [x] s3tests.functional.test_s3:test_atomic_write_4mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_write_8mb
+- [x] s3tests.functional.test_s3:test_atomic_write_8mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_dual_write_1mb
+- [x] s3tests.functional.test_s3:test_atomic_dual_write_1mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_dual_write_4mb
+- [x] s3tests.functional.test_s3:test_atomic_dual_write_4mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_dual_write_8mb
+- [x] s3tests.functional.test_s3:test_atomic_dual_write_8mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_conditional_write_1mb
+- [x] s3tests.functional.test_s3:test_atomic_conditional_write_1mb
 
 - [ ] s3tests.functional.test_s3:test_atomic_dual_conditional_write_1mb
 
-- [ ] s3tests.functional.test_s3:test_atomic_write_bucket_gone
+- [x] s3tests.functional.test_s3:test_atomic_write_bucket_gone
 
-- [ ] s3tests.functional.test_s3:test_atomic_multipart_upload_write
+- [x] s3tests.functional.test_s3:test_atomic_multipart_upload_write
 
-- [ ] s3tests.functional.test_s3:test_multipart_resend_first_finishes_last
+- [x] s3tests.functional.test_s3:test_multipart_resend_first_finishes_last
 
 - [ ] s3tests.functional.test_s3:test_ranged_request_response_code
 
