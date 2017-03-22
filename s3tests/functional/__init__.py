@@ -83,7 +83,7 @@ def nuke_prefixed_buckets_on_conn(prefix, name, conn):
                         # versioning - fall back to listing without versions
                         if e.error_code != 'NotImplemented':
                             raise e
-                        keys = bucket.list();
+                    keys = bucket.list();
                     for key in keys:
                         print('Cleaning bucket {bucket} key {key}'.format(
                             bucket=bucket,
