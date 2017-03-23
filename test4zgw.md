@@ -401,15 +401,15 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_not_exist
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_basic
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_basic
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_alt
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_alt
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_empty
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_empty
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_none
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_none
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_not_exist
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_not_exist
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_prefix_unreadable
 
@@ -423,27 +423,27 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_prefix_delimiter_not_exist
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_maxkeys_one
+- [ ] s3tests.functional.test_s3:test_bucket_list_maxkeys_one ??
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_maxkeys_zero
+- [x] s3tests.functional.test_s3:test_bucket_list_maxkeys_zero
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_maxkeys_none
+- [x] s3tests.functional.test_s3:test_bucket_list_maxkeys_none
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_maxkeys_invalid
+- [x] s3tests.functional.test_s3:test_bucket_list_maxkeys_invalid
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_maxkeys_unreadable
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_marker_none
+- [x] s3tests.functional.test_s3:test_bucket_list_marker_none
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_marker_empty
+- [x] s3tests.functional.test_s3:test_bucket_list_marker_empty
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_marker_unreadable
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_marker_not_in_list
+- [x] s3tests.functional.test_s3:test_bucket_list_marker_not_in_list
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_marker_after_list
+- [x] s3tests.functional.test_s3:test_bucket_list_marker_after_list
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_marker_before_list
+- [x] s3tests.functional.test_s3:test_bucket_list_marker_before_list
 
 ### acl:
 
