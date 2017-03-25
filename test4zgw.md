@@ -379,27 +379,27 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_multi_object_delete
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_basic
+- [x] s3tests.functional.test_s3:test_bucket_list_delimiter_basic
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_prefix
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_prefix_ends_with_delimiter
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_alt
+- [x] s3tests.functional.test_s3:test_bucket_list_delimiter_alt
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_percentage
+- [x] s3tests.functional.test_s3:test_bucket_list_delimiter_percentage
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_whitespace
+- [x] s3tests.functional.test_s3:test_bucket_list_delimiter_whitespace
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_dot
+- [x] s3tests.functional.test_s3:test_bucket_list_delimiter_dot
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_unreadable
+- [x] s3tests.functional.test_s3:test_bucket_list_delimiter_unreadable
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_empty
+- [x] s3tests.functional.test_s3:test_bucket_list_delimiter_empty
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_none
+- [x] s3tests.functional.test_s3:test_bucket_list_delimiter_none
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_delimiter_not_exist
+- [x] s3tests.functional.test_s3:test_bucket_list_delimiter_not_exist
 
 - [x] s3tests.functional.test_s3:test_bucket_list_prefix_basic
 
@@ -417,11 +417,11 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_alt
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_prefix_not_exist
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_prefix_not_exist
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_delimiter_not_exist
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_delimiter_not_exist
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_prefix_delimiter_not_exist
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_prefix_delimiter_not_exist
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_maxkeys_one ??
 
