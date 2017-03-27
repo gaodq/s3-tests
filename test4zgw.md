@@ -299,15 +299,15 @@ test4zgw.conf
 
 - [x] s3tests.functional.test_s3:test_multipart_resend_first_finishes_last
 
-- [ ] s3tests.functional.test_s3:test_ranged_request_response_code
+- [x] s3tests.functional.test_s3:test_ranged_request_response_code
 
-- [ ] s3tests.functional.test_s3:test_ranged_request_skip_leading_bytes_response_code
+- [x] s3tests.functional.test_s3:test_ranged_request_skip_leading_bytes_response_code
 
-- [ ] s3tests.functional.test_s3:test_ranged_request_return_trailing_bytes_response_code
+- [x] s3tests.functional.test_s3:test_ranged_request_return_trailing_bytes_response_code
 
-- [ ] s3tests.functional.test_s3:test_ranged_request_invalid_range
+- [x] s3tests.functional.test_s3:test_ranged_request_invalid_range
 
-- [ ] s3tests.functional.test_s3:test_ranged_request_empty_object
+- [x] s3tests.functional.test_s3:test_ranged_request_empty_object
 
 - [ ] s3tests.functional.test_s3:check_can_test_multiregion
 
