@@ -199,7 +199,7 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_bucket_create_special_key_names \*\*
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_special_prefix
+- [x] s3tests.functional.test_s3:test_bucket_list_special_prefix
 
 - [x] s3tests.functional.test_s3:test_object_copy_zero_size
 
@@ -243,7 +243,7 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_multipart_upload_resend_part
 
-- [ ] s3tests.functional.test_s3:test_multipart_upload_multiple_sizes
+- [x] s3tests.functional.test_s3:test_multipart_upload_multiple_sizes
 
 - [ ] s3tests.functional.test_s3:test_multipart_copy_multiple_sizes
 
@@ -369,8 +369,6 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_utils:test_generate
 
-### to be determined:
-
 - [ ] s3tests.functional.test_s3:test_object_write_expires
 
 - [ ] s3tests.functional.test_s3:test_object_write_cache_control
@@ -413,9 +411,9 @@ test4zgw.conf
 
 - [ ] s3tests.functional.test_s3:test_bucket_list_prefix_unreadable
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_basic
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_basic
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_alt
+- [x] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_alt
 
 - [x] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_prefix_not_exist
 
@@ -423,7 +421,7 @@ test4zgw.conf
 
 - [x] s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_prefix_delimiter_not_exist
 
-- [ ] s3tests.functional.test_s3:test_bucket_list_maxkeys_one ??
+- [x] s3tests.functional.test_s3:test_bucket_list_maxkeys_one ??
 
 - [x] s3tests.functional.test_s3:test_bucket_list_maxkeys_zero
 
