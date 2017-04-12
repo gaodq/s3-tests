@@ -60,6 +60,35 @@ cases="\
   s3tests.functional.test_s3:test_bucket_head_extended \
   s3tests.functional.test_s3:test_object_head_zero_bytes \
   s3tests.functional.test_s3:test_object_write_check_etag \
+  s3tests.functional.test_s3:test_ranged_request_response_code \
+  s3tests.functional.test_s3:test_ranged_request_skip_leading_bytes_response_code \
+  s3tests.functional.test_s3:test_ranged_request_return_trailing_bytes_response_code \
+  s3tests.functional.test_s3:test_ranged_request_invalid_range \
+  s3tests.functional.test_s3:test_bucket_list_delimiter_basic \
+  s3tests.functional.test_s3:test_bucket_list_delimiter_alt \
+  s3tests.functional.test_s3:test_bucket_list_delimiter_empty \
+  s3tests.functional.test_s3:test_bucket_list_delimiter_none \
+  s3tests.functional.test_s3:test_bucket_list_delimiter_not_exist \
+  s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_prefix_not_exist \
+  s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_delimiter_not_exist \
+  s3tests.functional.test_s3:test_bucket_list_prefix_delimiter_prefix_delimiter_not_exist \
+  s3tests.functional.test_s3:test_bucket_list_maxkeys_zero \
+  s3tests.functional.test_s3:test_bucket_list_maxkeys_none \
+  s3tests.functional.test_s3:test_bucket_list_maxkeys_invalid \
+  s3tests.functional.test_s3:test_bucket_list_marker_none \
+  s3tests.functional.test_s3:test_bucket_list_marker_empty \
+  s3tests.functional.test_s3:test_bucket_list_marker_not_in_list \
+  s3tests.functional.test_s3:test_bucket_list_marker_after_list \
+  s3tests.functional.test_s3:test_bucket_list_marker_before_list \
+  s3tests.functional.test_s3:test_ranged_request_empty_object \
+  s3tests.functional.test_s3:test_bucket_list_delimiter_percentage \
+  s3tests.functional.test_s3:test_bucket_list_delimiter_whitespace \
+  s3tests.functional.test_s3:test_bucket_list_delimiter_dot \
+  s3tests.functional.test_s3:test_bucket_list_prefix_basic \
+  s3tests.functional.test_s3:test_bucket_list_prefix_alt \
+  s3tests.functional.test_s3:test_bucket_list_prefix_empty \
+  s3tests.functional.test_s3:test_bucket_list_prefix_none \
+  s3tests.functional.test_s3:test_bucket_list_prefix_not_exist \
   s3tests.functional.test_s3:test_object_write_read_update_read_delete"
 
-S3_USE_SIGV4=1 S3TEST_CONF=test4zgw.conf virtualenv/bin/nosetests $cases -a auth_aws4
+S3_USE_SIGV4=1 S3TEST_CONF=test4zgw.conf virtualenv/bin/nosetests $cases -a auth_aws4 -x --debug-log=./tests.log --cover-html --process-timeout=10
